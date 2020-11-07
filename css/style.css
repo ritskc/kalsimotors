@@ -2462,6 +2462,7 @@ ol.list-num-count.list-outline-none > li:before {background-color:transparent;	c
 .acod-head a:focus {
 	color:#d72323;
 }
+.acod-head a:active, .acod-head a{color:#fff !important}
 .acod-body {color:#4e6371;}
 
 /*Accodian open close indicator css*/
@@ -2557,7 +2558,7 @@ ol.list-num-count.list-outline-none > li:before {background-color:transparent;	c
 /*-------------------------------------
 	7. Testimonials 
 -------------------------------------*/
-.testimonial-pic {background:#FFF; 	width:100px; 	height:100px;	position:relative;	display:inline-block;	border:5px solid #FFF; }
+.testimonial-pic {background:transparent;width:100px; 	height:100px;	position:relative;	display:inline-block;	border:5px solid #FFF; }
 .testimonial-pic.radius {border-radius:100%; 	-webkit-border-radius:100%;	-moz-border-radius:100%;}
 .testimonial-pic.radius img {width:100%; 	border-radius:100%; 	-webkit-border-radius:100%;	-moz-border-radius:100%;}
 .testimonial-pic.shadow {
@@ -3333,6 +3334,7 @@ transform: translateY(-50%);
 .site-footer .widget_services.inline-links li:last-child{
 	border-bottom:0px;
 }
+.site-footer .widget_services.inline-links li
 
 /* 19.1 widget listing*/
 .widget_services ul {	list-style:none;	padding-left:0;	margin-bottom:0;}
@@ -3354,7 +3356,8 @@ transform: translateY(-50%);
 .widget_services li li:before {	top:0;	left:1px;}
 
 
-
+.widget_hours li{padding:5px 10px 5px 0px;margin-bottom:0;line-height:20px;}
+.widget_hours li i{margin-right:5px;}
 
 
 .all_services ul {	list-style:none;	padding-left:0;	margin-bottom:0;}
@@ -9798,4 +9801,5 @@ STEP NUMBER
     color:#D6110B;
 }
 .services_home .wt-box .wt-info ul li:last-child:before{content:"";}
+.google-rating{width:170px;border-radius:5px;padding:10px;}
 
